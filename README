@@ -1,3 +1,5 @@
+Performance Analysis of TCP Variants
+
 This project aims to study and understand the TCP features and behavior of the TCP variants under load conditions and queuing algorithms.
 
 In each experiment, we use the NS-2 network simulator to perform experiments for different TCP variants(Tahoe, Reno, NewReno, Vegas, and SACK) and use metrics such as latency, dropout rate, as well as throughput to analyze the performance and behavior of each TCP variant.
@@ -27,3 +29,5 @@ https://david.choffnes.com/classes/cs4700fa20/project3.php
 
 Result:
 Please refer to the paper for a detailed interpretation of the result
+
+This project was completed by Chen Gu(gu.che@northeastern.edu) and Jiahao Song(song.jiaha@northeastern.edu)
