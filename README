@@ -1,7 +1,6 @@
+This project aims to study and understand the TCP features and behavior of the TCP variants under load conditions and queuing algorithms.
 
-The object of this project is to study and understand the TCP features and behavior of the TCP variants under load conditions and queuing algorithm.
-
-In each experiment, we use NS-2 network simulator to perform experiments for different TCP variant(Tahoe, Reno, NewReno, Vegas nad SACK) and use metrics such as latency, dropout rate, as well as throughput to analyse the performance and behaviour of each TCP variant
+In each experiment, we use the NS-2 network simulator to perform experiments for different TCP variants(Tahoe, Reno, NewReno, Vegas, and SACK) and use metrics such as latency, dropout rate, as well as throughput to analyze the performance and behavior of each TCP variant.
 
 
 Topology: 
@@ -15,16 +14,16 @@ Topology:
 
 
 
-process of experiment:
-We first build the topology above and set various conditions in NS-2 simulator, and then use python script to run the tcl file and generated trace file which contains raw data, python script will also parse the data and generate the output data set. We plot the data set and interpret the graph accordingly.    
+process of the experiment:
+We first build the topology above and set various conditions in the NS-2 simulator. Then we use the python script to run the .tcl file and generated the trace files that contain raw data. Python script will also parse the data and create the output data set. We plot the data set and interpret the graph accordingly.    
 
 
 Run: 
-Go to the experiment folder, run python experiment{}.py, it will generate result data set of latency, dropout and throughput for different tcp variant  
+Go to the experiment folder, run python experiment{}.py, it will generate the result of data set such as latency, dropout, and throughput for different TCP variants.  
 
 experiment details:
 https://david.choffnes.com/classes/cs4700fa20/project3.php
 
 
 Result:
-Please refer to the paper for detailed interpretation of result.
+Please refer to the paper for a detailed interpretation of the result
